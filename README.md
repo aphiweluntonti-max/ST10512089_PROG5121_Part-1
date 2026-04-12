@@ -2,7 +2,7 @@
 Part 1 Repository
 ========JAVA LOGIN=========:
 
--Public class was login. 
+-Public class is login. 
 -Used string method for the username,password and phoneNumber.
 -Login user username with the required conditions. 
 -Login user password with limited characters of 8.
@@ -19,12 +19,16 @@ Part 1 Repository
 -If statement with conditions of null username and null password and make it return false.
 -Used return this method to both the username and password and make it both  equals to username and password by using brackets in  the end.
 -Used public string return login status with the condition of boolean method of success.
--Used if statement with the condition of success and return method with the message of Welcome and it is great to see you with inverted commas and wrote +username+
--Else if the user's 3 variables is incorrect, the return method will be implemented with  the message of the three variables to be incorrect and ask the user to try again
+-Used if statement with the condition of success and return method with the message of Welcome and it is great to see you with inverted commas and wrote +username+.
+-Else if the user's 3 variables is incorrect, the return method will be implemented with  the message of the three variables to be incorrect and ask the user to try again.
 
 ===THE END OF MY LOGIN JAVA CODE===
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ====JAVA MAIN FOR REGISTRATION====
+
+-Public class is Main and using public static void main for our starting point for our code.
+-Imported the Scanner java class so my code could scan the the user's details 
+-
 
 
 
