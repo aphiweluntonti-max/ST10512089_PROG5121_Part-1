@@ -1,7 +1,8 @@
 # ST10512089_PROG5121_Part-1
 Part 1 Repository
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ========JAVA LOGIN=========:
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Public class is login. 
 -Used string method for the username,password and phoneNumber.
 -Login user username with the required conditions. 
@@ -21,14 +22,24 @@ Part 1 Repository
 -Used public string return login status with the condition of boolean method of success.
 -Used if statement with the condition of success and return method with the message of Welcome and it is great to see you with inverted commas and wrote +username+.
 -Else if the user's 3 variables is incorrect, the return method will be implemented with  the message of the three variables to be incorrect and ask the user to try again.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===THE END OF MY LOGIN JAVA CODE===
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ====JAVA MAIN FOR REGISTRATION====
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Public class is Main and using public static void main for our starting point for our code.
--Imported the Scanner java class so my code could scan the the user's details 
--
-
-
-
+-Imported the Scanner java class so my code could scan the the user's details.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---REGISTRATION SECTION---
+-Made output for user registration by writing system.out.println for the user username,password and phone number.
+-Used boolean method to  call the register user  and  store the message it returns.
+-Showing the registration messege by outputing using system.out.println(response);.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---LOGIN SECTION---
+-Making two outputs for the user's username and password by using System.out.println();. 
+-Using boolean method for the login user username and password.
+-Using string method to make the code print out the logged in message.
+-Using output method for the correct login message by using System.out.println(loginMessage);.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===THE END OF MY JAVA MAIN REGISTRATION===
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
