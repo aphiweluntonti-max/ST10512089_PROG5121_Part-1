@@ -13,12 +13,19 @@ Part 1 Repository
 -Boolean method to check for password if it has capital letters,special characters and numbers.
 -For loop was implemented for the conditions of the password length,index numbers.
 -Used public boolean to check phone number length and start with +27.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------REGISTER USER---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Used public boolean to  check register user in string method of username,phone number,password.
 -Used if statement to make all three variables false.
 -Used user details to make all three variables return true.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------LOGIN USER---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Used public boolean for login user's with string method for user's username and password.
 -If statement with conditions of null username and null password and make it return false.
 -Used return this method to both the username and password and make it both  equals to username and password by using brackets in  the end.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---RETURN LOGIN STATUS---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Used public string return login status with the condition of boolean method of success.
 -Used if statement with the condition of success and return method with the message of Welcome and it is great to see you with inverted commas and wrote +username+.
 -Else if the user's 3 variables is incorrect, the return method will be implemented with  the message of the three variables to be incorrect and ask the user to try again.
