@@ -1,7 +1,7 @@
 # ST10512089_PROG5121_Part-1
 Part 1 Repository
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-========JAVA LOGIN=========:
+====JAVA LOGIN====:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Public class is login. 
 -Used string method for the username,password and phoneNumber.
@@ -42,4 +42,36 @@ Part 1 Repository
 -Using output method for the correct login message by using System.out.println(loginMessage);.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ===THE END OF MY JAVA MAIN REGISTRATION===
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+====JAVA LOGINTEST====
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Public class is LoginTest.
+-Using Logintest to test login java code.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---TEST---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Using public void  to test valid and invalid  username of the user.
+-Using assertTrue for valid username and check for username. 
+-Using assertFalse for invalid username if it contains no underscore and if it is too long.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---TEST---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Using public void  to test valid and invalid password of the user.
+-Using assertTrue for valid password and check for password complexity.
+-Using assertFalse for invalid password if it contains no capital letters and no numbers.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---TEST---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Using public void  to test valid and invalid phone number of the user.
+-Using assertTrue for valid phone number and check for the phone number with the correct international code of South Africa.
+-Using assertFalse for invalid phone number with no international code of South Afica.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---TEST---
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Using public void to test login success and login failed.
+-Using login register user valid details on both login success and login failed.
+-Using assertTrue for attempt login with the same correct details of the login user
+-Using assertFalse for attempt login with the password only of the user.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+====THE END OF JAVA LOGINTEST====
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
